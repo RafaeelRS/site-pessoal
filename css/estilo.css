@@ -1,0 +1,9 @@
+/* Estilo geral da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    text-decoration: none;
+    list-style-type: none;
+}
