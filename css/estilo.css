@@ -7,3 +7,32 @@
     text-decoration: none;
     list-style-type: none;
 }
+
+header {
+    max-width: 1280px;
+    margin: 20px auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+#imagem-logo {
+    width: 100%;
+}
+
+.menu-desktop li{
+    display: inline-block;
+}
