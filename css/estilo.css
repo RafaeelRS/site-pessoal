@@ -33,12 +33,13 @@ font-family: 'Wavefont', system-ui; */
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1280px;
+    max-width: 350px;
     margin: 20px auto;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Classes auxiliares */
@@ -56,4 +57,13 @@ header {
 
 .menu-desktop li{
     display: inline-block;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #E05206;
+    color: white;
 }
