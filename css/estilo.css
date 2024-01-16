@@ -1,3 +1,21 @@
+@charset "UTF-8";
+
+/* Importando as fonts */
+@font-face {
+    font-family: Amatic;
+    src: url("../fonts/Amatic_SC/AmaticSC-Regular.ttf") format("truetype");
+    font-family: "Bebas Neue";
+    src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+    font-family: Comfortaa;
+    src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+/* font-family: 'Bigelow Rules', serif;
+font-family: 'Rubik Glitch', system-ui;
+font-family: 'Wavefont', system-ui; */
+
 /* Estilo geral da página */
 * {
     margin: 0;
@@ -6,6 +24,11 @@
     border-collapse: collapse;
     text-decoration: none;
     list-style-type: none;
+}
+
+:root {
+    --color-primmary: steal;
+
 }
 
 header {
@@ -18,13 +41,10 @@ header {
     display: flex;
 }
 
-.space-between {
-    justify-content: space-between;
-}
+/* Classes auxiliares */
+.space-between {justify-content: space-between;}
+.center {align-items: center;}
 
-.center {
-    align-items: center;
-}
 
 .logo {
     width: 50px;
