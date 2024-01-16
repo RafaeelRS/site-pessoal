@@ -33,13 +33,16 @@ font-family: 'Wavefont', system-ui; */
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 350px;
+    /* max-width: 350px; */
     margin: 20px auto;
 }
 
 .flex {
     display: flex;
+    gap: 12px;
+    margin: 5px auto;
     flex-wrap: wrap;
+    width: 350px;
 }
 
 /* Classes auxiliares */
@@ -57,6 +60,11 @@ header {
 
 .menu-desktop li{
     display: inline-block;
+}
+
+#botao {
+    justify-self: center;
+    align-self: center;
 }
 
 .btn {
